@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/99ccc8e085.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">   
+            <nav>
+                <img src="./precision-builder-high-resolution-logo-transparent.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Founders</a></li>
+                    <li><a href="#contact">Hire</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <img src="./moon.png" id="icon">
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                
+                <h1>Hi, We Are <span>Precision Builders</span><br>from Tripura</h1>
+            </div>
+        </div>
+    </div>
+    <!-- <.........................About......................> -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <video  autoplay muted loop id="myVideo">
+                        <source src="./3d video.mp4" type="video/mp4">
+                      </video>
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Precision Builder</h1>
+                    <p>We are a team of Energetic and Hardworking group of Civil Engineers.We make your dreams come true in building Residential Homes, Offices, Shops etc.We build projects with undivided attention in a given time period affirmatively <span><b>with Accuracy and Precision.</b></span><br>Skilled in
+                        Planning , Survey , Estimate , Designing , Billing , Plotting , Execution
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">SKILLS IN POSSESSION</p>
+                        <!-- <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p> -->
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Survey</span><br> GIS , Remote Sensing , Levelling , Profiling  , ArcMap</li>
+                            <li><span>Designing</span><br>Sketchup , AutoCAD , Revit , Lumion , SAP 2000 , ETABS , StaadPro V8i , Tekla</li>
+                            <li><span>Report & Billing</span><br>Detailed Project Report , Authentic Rates as Industry Compliant</li> 
+                        </ul>
+                    </div>
+                    <!-- <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Junior Engineer for North Frontier Railway</li>
+                            <li><span>2021-2022 </span><br>Site Engineer For B.S.F BOP West Bengal</li>
+                             
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022 July-Current</span><br>Fullstack Web Development from Digikull</li>
+                            <li><span>2017-2020</span><br>B.tech in Civil Engineering at TIT </li>
+                            <li><span>2016-2017</span><br>Diploma in Computer Application</li>
+                            <li><span>2013-2016</span><br>Diploma in Civil Engineering at TIT</li> 
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ......................Services..................... -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <h2>Renovation & Retrofitting</h2>
+                    <p>Complete solution for making renovation and repairing </p>
+                    <a href="https://en.wikipedia.org/wiki/Retrofitting">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <h2>Structural & Constructional Services</h2>
+                    <p>Residential or Commercial Building plans to Execution Project within strict budget constraint</p>
+                    <a href="https://en.wikipedia.org/wiki/Structural_engineer">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-file-invoice-dollar"></i>
+                    <h2>Invoice ,  Billing</h2>
+                    <p>Billings , Estimation , Cost-Cutting , Optimisation</p>
+                    <a href="https://en.wikipedia.org/wiki/Logistics">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-computer"></i>
+                    <h2>Custom Designing , Interior & Exterior</h2>
+                    <p>Glasswares , Tiles , Roofing , Custom Design Build</p>
+                    <a href="https://en.wikipedia.org/wiki/Tile">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ..........................Portfolio.................... -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Core Members</h1> 
+            <div class="work-list">
+                <div class="work">
+                    <img src="./kitanu.jpg">
+                    <div class="layer">
+                        <h3>Krishanu Bhattacharjee</h3>
+                        <p>Connect to Facebook Profile </p>
+                        <a href="https://www.facebook.com/krishanu.bhattacharjee.50"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./vivek.jpg">
+                    <div class="layer">
+                        <h3>Vivek Debnath</h3>
+                        <p>Connect to Facebook Profile </p>
+                        <a href="https://www.facebook.com/alex.mercer.3150/"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./swomik.jpg">
+                    <div class="layer">
+                        <h3>Swomik Majumder</h3>
+                        <p>Connect to Facebook Profile</p>
+                        <a href="https://www.facebook.com/profile.php?id=100084469351492&sk=about"><i class="fa-solid fa-square-arrow-up-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- <a href="https://www.twitch.tv/muzzlebreak69" class="btn">Catch Me Live</a> -->
+            <br>
+            <br>
+            <hr>
+        </div>
+    </div>
+
+<!-- ................................Contact....................... -->
+     <div id="contact">
+     <div class="container">
+         <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>vivekdebnath19@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917005801855</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/alex.mercer.3150/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/vivek-debnath-b45b1a198/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/encrypted_men/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/codervivek007"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://discord.gg/pfuqCcwz"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://www.youtube.com/@vivekdebnath"><i class="fa-brands fa-youtube"></i></a>
+
+                </div>
+                <!-- <a href="./CV_2021VivekDebnathNew.pdf" download class="btn btn2">Download CV</a> -->
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+         </div>
+</div>
+<div class="copyright">
+    <p>Copyright &copy; Precision Builder 2023 &nbsp;<i class="fa-solid fa-fire"></i></p>
+</div>
+</div>
+
+
+
+   <script src="./script.js"></script>
+</body>
+</html>
